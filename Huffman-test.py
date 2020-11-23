@@ -26,7 +26,7 @@ def create_prim_nodes(data_set, labels):
 
 # 创建huffman树
 def create_HF_tree(nodes):
-    #此处注意，copy()属于浅拷贝，只拷贝最外层元素，内层嵌套元素则通过引用，而不是独立分配内存
+    #copy()属于浅拷贝，只拷贝最外层元素，内层嵌套元素则通过引用，而不是独立分配内存
     tree_nodes = nodes.copy() 
     while len(tree_nodes) > 1: #只剩根节点时，退出循环
         tree_nodes.sort(key=lambda node: node.weight)#升序排列
