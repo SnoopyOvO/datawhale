@@ -1,6 +1,7 @@
 import turtle as t
 
-t.speed(0)
+t.speed(10)
+t.pensize(3)
 
 def drawCircle(n,colorpen,colorfill):
     t.pencolor(colorpen)
@@ -20,9 +21,10 @@ def drawHeart(n,colorpen,colorfill):
     t.begin_fill()
     t.left(135)
     t.circle(n,180)
-    t.forward(2*n)
-    t.left(90)
-    t.forward(2*n)
+    t.circle(4*n,25)
+    # t.forward(2*n)
+    t.left(45)
+    t.circle(4*n,25)
     t.circle(n,180)
     t.end_fill()
 
