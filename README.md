@@ -1,5 +1,2 @@
-# hello-world
-trytrytry
-#试试看改一下
-啊哈哈哈eeeehhhh
-太强啦
+# Datawhale智慧海洋组队学习
+代码练习记录
