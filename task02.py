@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # task 02 数据分析
 #coding:utf-8
 #导入warnings包，利用过滤器来实现忽略警告语句。
@@ -70,6 +69,3 @@ data_train = pd.concat(data_train)
 test_path = "/Users/gaohan/Documents/GitHub/wisdomOcean/智慧海洋组队文件/hy_round1_testA_20200102/"
 data_test = read_data(test_path,Kind="test")
 data_test = pd.concat(data_test)
-=======
-import
->>>>>>> 30368350c02f9bf8a97bc8e8c08cfe2b984f37ab
